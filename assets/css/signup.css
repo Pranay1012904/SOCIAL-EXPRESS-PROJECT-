@@ -1,0 +1,7 @@
+#signup .btn{
+    display:flex;
+    justify-content: center;
+}
+#signup .btn input[type='submit']{
+    width: 40%;
+}
