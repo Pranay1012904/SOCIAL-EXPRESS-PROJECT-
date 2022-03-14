@@ -7,6 +7,10 @@ module.exports.signin=(req,res)=>{
     return res.render('signin');
 }
 
+module.exports.profile=(req,res)=>{
+    return res.render('profile');
+}
+
 module.exports.create=(req,res)=>{
         console.log(req.body);
         if(req.body.password!==req.body.cpassword)
